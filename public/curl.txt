@@ -1,0 +1,1 @@
+{"Warnings":null,"Errors":null,"Result":"123--- хахахахахахахаха","Stats":"Compilation time: 0.13 sec, absolute running time: 0.1 sec, cpu time: 0.04 sec, memory peak: 3 Mb, absolute service time: 0,31 sec","Files":null}

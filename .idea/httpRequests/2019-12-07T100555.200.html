@@ -1,0 +1,12 @@
+NULL
+<br/>
+<b>Fatal
+    error</b>:  Uncaught Zend\HttpHandlerRunner\Exception\EmitterException: Output has been emitted previously; cannot emit response in C:\OSPanel\domains\framework\vendor\zendframework\zend-httphandlerrunner\src\Exception\EmitterException.php:23
+Stack trace:
+#0 C:\OSPanel\domains\framework\vendor\zendframework\zend-httphandlerrunner\src\Emitter\SapiEmitterTrait.php(39): Zend\HttpHandlerRunner\Exception\EmitterException::forOutputSent()
+#1 C:\OSPanel\domains\framework\vendor\zendframework\zend-httphandlerrunner\src\Emitter\SapiEmitter.php(26): Zend\HttpHandlerRunner\Emitter\SapiEmitter-&gt;assertNoPreviousOutput()
+#2 C:\OSPanel\domains\framework\public\index.php(80): Zend\HttpHandlerRunner\Emitter\SapiEmitter-&gt;emit(Object(Zend\Diactoros\Response\HtmlResponse))
+#3 {main}
+thrown in
+<b>C:\OSPanel\domains\framework\vendor\zendframework\zend-httphandlerrunner\src\Exception\EmitterException.php</b> on line
+<b>23</b><br/>

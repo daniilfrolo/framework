@@ -1,0 +1,8 @@
+{% extends ('layouts/default.php.twig') %}
+{% block test %}
+<h1> Тестовый блочек</h1>
+    {% if true  %}
+        {{ ' Удачsdа' }}
+    {% endif %}
+    {{ parent() }}
+{% endblock %}
